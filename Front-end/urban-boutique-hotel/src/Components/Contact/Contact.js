@@ -158,7 +158,7 @@ const Contact = () => {
             </div>
             <div className="contact-stats">
               <div className="contact-stat">{t("con_email")}</div>
-              <div className="contact-paragraph">support@matarresidence.com</div>
+              <a href="mailto:support@matarresidence.com" className="contact-paragraph">support@matarresidence.com</a>
             </div>
           </div>
           <div className="side-info-box">
